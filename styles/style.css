@@ -16,8 +16,12 @@
     line-height: 100%;
 }
 
-.header_menu_link {
+.header_menu_link_item {
     list-style: none;
+}
+
+.header_menu_link {
+    text-decoration: none;
 }
 
 .header_menu_link_circle {
@@ -198,7 +202,7 @@
 .about {
     display: grid;
     grid-template-columns: 334px 1fr;
-    padding: 35px 24px 13px 24px;
+    padding: 35px 24px 1px 24px;
     justify-items: center;
 }
 
@@ -237,4 +241,50 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 180px 0 0 0;
+}
+
+.footer_address {
+    padding: 0 75px 82px 50px;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: center;
+    padding: 1px 75px 115px;
+}
+
+.footer_menu_list {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.footer_menu_list_item_active {
+    text-decoration: none;
+}
+
+.footer_menu_list_item {
+    text-underline-offset: 4px;
+    padding-top: 3px;
+}
+
+.footer_social_list {
+    display: grid;
+    grid-template-columns: 48px 48px 48px;
+    gap: 48px;
+    list-style: none;
+    padding-left: 76px;
+}
+
+.footer_social_icon {
+    justify-content: center;
+    width: 48px;
 }
