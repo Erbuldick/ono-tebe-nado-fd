@@ -22,6 +22,10 @@
     list-style: none;
 }
 
+.active {
+    text-decoration: none;
+}
+
 .header_menu_link {
     padding-left: 3px;
     text-underline-offset: 4px;
@@ -268,10 +272,6 @@
 .footer_menu_list_item {
     padding-top: 3px;
     line-height: 100%;
-}
-
-.footer_menu_link_active {
-    text-decoration: none;
 }
 
 .footer_menu_link {
